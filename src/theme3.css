@@ -1,0 +1,24 @@
+/* Backgrounds */
+:root {
+    --main-background-3: hsl(268, 75%, 9%);
+    --toggle-background-3: hsl(268, 71%, 12%);
+    --screen-background-3: hsl(268, 71%, 12%);
+    --keypad-background-3: hsl(268, 71%, 12%);
+}
+
+/* Keys */
+:root {
+    --key-background-3: hsl(281, 89%, 26%);
+    --key-shadow-3: hsl(285, 91%, 52%);
+    --toggle-key-background-3: hsl(176, 100%, 44%);
+    --toggle-key-shadow-3: hsl(177, 92%, 70%);
+    --dark-violet-key-background-3: hsl(268, 47%, 21%);
+    --dark-magenta-key-shadow-3: hsl(290, 70%, 36%);
+}
+
+/* Text */
+:root {
+    --light-yellow-3: hsl(52, 100%, 62%);
+    --very-dark-blue-3: hsl(198, 20%, 13%);
+    --white-3: hsl(0, 0%, 100%);
+}

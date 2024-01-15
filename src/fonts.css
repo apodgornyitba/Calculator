@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'League Spartan';
+    font-weight: bold;
+    src: url('./fonts/LeagueSpartan-Bold.ttf') format('truetype');
+}
+
+.body{
+    font-family: 'League Spartan', sans-serif;
+}
