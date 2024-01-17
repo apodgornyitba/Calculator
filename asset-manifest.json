@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Calculator/static/css/main.8a845ef3.css",
+    "main.js": "/Calculator/static/js/main.bc55773f.js",
+    "static/media/LeagueSpartan-Bold.ttf": "/Calculator/static/media/LeagueSpartan-Bold.c311dbd01e80ebe50942.ttf",
+    "index.html": "/Calculator/index.html",
+    "main.8a845ef3.css.map": "/Calculator/static/css/main.8a845ef3.css.map",
+    "main.bc55773f.js.map": "/Calculator/static/js/main.bc55773f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a845ef3.css",
+    "static/js/main.bc55773f.js"
+  ]
+}
