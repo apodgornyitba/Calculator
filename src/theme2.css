@@ -1,23 +1,33 @@
+/*Theme 2*/
 /* Backgrounds */
-:root {
-    --main-background-2: hsl(0, 0%, 90%);
-    --toggle-background-2: hsl(0, 5%, 81%);
-    --screen-background-2: hsl(0, 0%, 93%);
-    --keypad-background-2: hsl(0, 5%, 81%);
+.theme-2 {
+    --main-background: hsl(0, 0%, 90%);
+    --toggle-background: hsl(0, 5%, 81%);
+    --screen-background: hsl(0, 0%, 93%);
+    --keypad-background: hsl(0, 5%, 81%);
 }
 
 /* Keys */
-:root {
-    --key-background-2: hsl(185, 42%, 37%);
-    --key-shadow-2: hsl(185, 58%, 25%);
-    --toggle-key-background-2: hsl(25, 98%, 40%);
-    --toggle-key-shadow-2: hsl(25, 99%, 27%);
-    --light-grayish-yellow-2: hsl(45, 7%, 89%);
-    --dark-grayish-orange-shadow-2: hsl(35, 11%, 61%);
+.theme-2 {
+    --key-background: hsl(185, 42%, 37%);
+    --key-background-light: hsl(185, 58%, 47%);
+    --key-shadow: hsl(185, 58%, 25%);
+    --toggle-key-background: hsl(25, 98%, 40%);
+    --toggle-key-background-light: hsl(25, 99%, 49%);
+    --toggle-key-shadow: hsl(25, 99%, 27%);
+    --light-grayish-orange: hsl(45, 7%, 89%);
+    --lighter-grayish-orange: hsl(35, 11%, 94%);
+    --grayish-orange-shadow: hsl(35, 11%, 61%);
 }
 
 /* Text */
-:root {
-    --very-dark-grayish-yellow-2: hsl(60, 10%, 19%);
-    --white-2: hsl(0, 0%, 100%);
+.theme-2 {
+    --very-dark-grayish-yellow: hsl(60, 10%, 19%);
+    --text-color: var(--very-dark-grayish-yellow);
+    --white: hsl(0, 0%, 100%);
+    --text-for-h1: var(--very-dark-grayish-yellow);
+}
+
+.theme-2 {
+    background-color: var(--main-background);
 }

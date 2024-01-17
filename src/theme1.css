@@ -1,45 +1,33 @@
+/*Theme 1*/
 /* Backgrounds */
-:root {
-    --main-background-1: hsl(222, 26%, 31%);
-    --toggle-background-1: hsl(223, 31%, 20%);
-    --screen-background-1: hsl(224, 36%, 15%);
-    --keypad-background-1: hsl(223, 31%, 20%);
+.theme-1 {
+    --main-background: hsl(222, 26%, 31%);
+    --toggle-background: hsl(223, 31%, 20%);
+    --screen-background: hsl(224, 36%, 15%);
+    --keypad-background: hsl(223, 31%, 20%);
 }
 
 /* Keys */
-:root {
-    --key-background-1: hsl(225, 21%, 49%);
-    --key-shadow-1: hsl(224, 28%, 35%);
-    --toggle-key-background-1: hsl(6, 63%, 50%);
-    --toggle-key-shadow-1: hsl(6, 70%, 34%);
-    --light-grayish-orange-1: hsl(30, 25%, 89%);
-    --grayish-orange-shadow-1: hsl(28, 16%, 65%);
+.theme-1 {
+    --key-background: hsl(225, 21%, 49%);
+    --key-background-light: hsl(225, 35%, 65%);
+    --key-shadow: hsl(224, 28%, 35%);
+    --toggle-key-background: hsl(6, 63%, 50%);
+    --toggle-key-background-light: hsl(4, 73%, 60%);
+    --toggle-key-shadow: hsl(6, 70%, 34%);
+    --light-grayish-orange: hsl(30, 25%, 89%);
+    --lighter-grayish-orange: hsl(30, 25%, 99%);
+    --grayish-orange-shadow: hsl(28, 16%, 65%);
 }
 
 /* Text */
-:root {
-    --very-dark-grayish-blue-1: hsl(221, 14%, 31%);
-    --text-color: var(--very-dark-grayish-blue-1);
-    --white-1: hsl(0, 0%, 100%);
-    --text-white: var(--white-1);
+.theme-1 {
+    --very-dark-grayish-blue: hsl(221, 14%, 31%);
+    --text-color: var(--very-dark-grayish-blue);
+    --white: hsl(0, 0%, 100%);
+    --text-white: var(--white);
 }
 
-body {
-    background-color: var(--main-background-1);
-}
-
-/* Additional styling for specific components using the defined variables */
-.key {
-    background-color: var(--key-background-1);
-    box-shadow: 0 4px var(--key-shadow-1);
-}
-
-.toggle-key {
-    background-color: var(--toggle-key-background-1);
-    box-shadow: 0 4px var(--toggle-key-shadow-1);
-}
-
-.light-gray-key {
-    background-color: var(--light-grayish-orange-1);
-    box-shadow: 0 4px var(--grayish-orange-shadow-1);
+.theme-1 {
+    background-color: var(--main-background);
 }

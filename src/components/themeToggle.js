@@ -1,7 +1,9 @@
-import React, { useState } from "react";
-import { Button, Container } from "@mui/material";
+import React from "react";
+import {Button, Container} from "@mui/material";
+import { useTheme } from './ThemeContext';
 
-function ToggleButton({ index, onClick, toggleKeyShadow, toggleKeyBackground }) {
+function ToggleButton({index, onClick, toggleKeyShadow, toggleKeyBackground}) {
+
     return (
         <Button
             sx={{
@@ -22,12 +24,13 @@ function ToggleButton({ index, onClick, toggleKeyShadow, toggleKeyBackground }) 
 }
 
 function ThemeToggle(props) {
-    const { toggleBackground, toggleKeyShadow, toggleKeyBackground } = props;
-    const [selectedButton, setSelectedButton] = useState(1);
+    const {toggleBackground, toggleKeyShadow, toggleKeyBackground} = props;
+    const { theme, toggleTheme } = useTheme();
 
-    const handleButtonClick = (buttonIndex) => {
-        setSelectedButton(buttonIndex);
+    const handleButtonClick = () => {
+        toggleTheme();
     };
+
 
     return (
         <Container
@@ -47,20 +50,20 @@ function ThemeToggle(props) {
             <ToggleButton
                 index={1}
                 onClick={handleButtonClick}
-                toggleKeyShadow={ selectedButton === 1 ? toggleKeyShadow : 'transparent' }
-                toggleKeyBackground={ selectedButton === 1 ? toggleKeyBackground : 'transparent'}
+                toggleKeyShadow={theme === 1 ? toggleKeyShadow : 'transparent'}
+                toggleKeyBackground={theme === 1 ? toggleKeyBackground : 'transparent'}
             />
             <ToggleButton
                 index={2}
                 onClick={handleButtonClick}
-                toggleKeyShadow={selectedButton === 2 ? toggleKeyShadow : 'transparent'}
-                toggleKeyBackground={selectedButton === 2 ? toggleKeyBackground : 'transparent'}
+                toggleKeyShadow={theme === 2 ? toggleKeyShadow : 'transparent'}
+                toggleKeyBackground={theme === 2 ? toggleKeyBackground : 'transparent'}
             />
             <ToggleButton
                 index={3}
                 onClick={handleButtonClick}
-                toggleKeyShadow={selectedButton === 3 ? toggleKeyShadow : 'transparent'}
-                toggleKeyBackground={selectedButton === 3 ? toggleKeyBackground : 'transparent'}
+                toggleKeyShadow={theme === 3 ? toggleKeyShadow : 'transparent'}
+                toggleKeyBackground={theme === 3 ? toggleKeyBackground : 'transparent'}
             />
         </Container>
     );

@@ -1,6 +1,7 @@
 .App{
     font-family: 'League Spartan', sans-serif;
     display: grid;
+    height: 100vh;
 }
 
 .titleAndTheme{
