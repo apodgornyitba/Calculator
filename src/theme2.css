@@ -25,7 +25,10 @@
     --very-dark-grayish-yellow: hsl(60, 10%, 19%);
     --text-color: var(--very-dark-grayish-yellow);
     --white: hsl(0, 0%, 100%);
+    --text-white: var(--white);
     --text-for-h1: var(--very-dark-grayish-yellow);
+    --text-for-display: var(--very-dark-grayish-yellow);
+    --text-for-equal: var(--white);
 }
 
 .theme-2 {

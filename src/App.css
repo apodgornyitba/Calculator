@@ -7,6 +7,7 @@
 .titleAndTheme{
     display: flex;
     justify-content: space-around;
+    align-items: flex-end;
     width: 50%;
     margin-left: 25%;
 }
@@ -17,7 +18,7 @@
 }
 
 .titleAndTheme h1{
-    color: var(--text-white);
+    color: var(--text-for-h1);
 }
 
 
@@ -27,7 +28,7 @@
 }
 
 .theme p{
-    color: var(--text-white);
+    color: var(--text-for-h1);
 }
 
 .labels{

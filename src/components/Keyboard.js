@@ -198,7 +198,7 @@ function Keyboard(props) {
                     keyBackground={'var(--toggle-key-background)'}
                     lightKeyBackground={'var(--toggle-key-background-light)'}
                     keyShadow={'var(--toggle-key-shadow)'}
-                    textColor={'var(--text-white)'}
+                    textColor={'var(--text-for-equal)'}
                 />
             </div>
         </div>

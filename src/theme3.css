@@ -10,11 +10,14 @@
 /* Keys */
 .theme-3 {
     --key-background: hsl(281, 89%, 26%);
+    --key-background-light: hsl(285, 91%, 37%);
     --key-shadow: hsl(285, 91%, 52%);
     --toggle-key-background: hsl(176, 100%, 44%);
+    --toggle-key-background-light: hsl(177, 92%, 60%);
     --toggle-key-shadow: hsl(177, 92%, 70%);
-    --dark-violet-key-background: hsl(268, 47%, 21%);
-    --dark-magenta-key-shadow: hsl(290, 70%, 36%);
+    --light-grayish-orange: hsl(268, 47%, 21%);
+    --lighter-grayish-orange: hsl(268, 59%, 46%);
+    --grayish-orange-shadow: hsl(290, 70%, 36%);
 }
 
 /* Text */
@@ -22,6 +25,11 @@
     --light-yellow: hsl(52, 100%, 62%);
     --very-dark-blue: hsl(198, 20%, 13%);
     --white: hsl(0, 0%, 100%);
+    --text-color: var(--light-yellow);
+    --text-white: var(--white);
+    --text-for-h1: var(--light-yellow);
+    --text-for-display: var(--light-yellow);
+    --text-for-equal: var(--very-dark-blue);
 }
 
 .theme-3 {

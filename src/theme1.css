@@ -26,6 +26,9 @@
     --text-color: var(--very-dark-grayish-blue);
     --white: hsl(0, 0%, 100%);
     --text-white: var(--white);
+    --text-for-h1: var(--white);
+    --text-for-display: var(--white);
+    --text-for-equal: var(--white);
 }
 
 .theme-1 {

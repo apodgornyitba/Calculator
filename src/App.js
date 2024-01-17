@@ -97,7 +97,7 @@ function App() {
                     <Display
                         displayValue={displayValue}
                         background={'var(--screen-background)'}
-                        textColor={'var(--text-white)'}
+                        textColor={'var(--text-for-display)'}
                     />
                     <Keyboard
                         handleNumberClick={handleNumberClick}
